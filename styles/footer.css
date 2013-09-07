@@ -1,0 +1,57 @@
+body {
+    background-color: auto;
+    padding: 0;
+    padding-top: 2em;
+    margin: 0;
+    overflow: hidden;
+}
+
+img{
+  border: none;
+}
+
+#container {
+    margin: 3em;
+    text-align: left;
+}
+
+.hollow-button {
+    display: block;
+    margin: 1em auto;
+}
+
+.hollow-button-inner {
+	width: 2em;
+	height: 1.8em;
+    display: block;
+    padding: 5px 5px 8px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, .4);
+    -moz-box-shadow: inset 0 2px 5px rgba(0, 0, 0, .4);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, .4);
+    background: lightblue;
+}
+
+.box-faq {
+  width: 5.3em;
+  margin: 0px auto;
+  color: #69574A;
+  height: 7.5em;
+  padding-right: 2em;
+  padding-top: 0em;
+  overflow: hidden;
+  -moz-transition: height 1s linear;
+  -o-transition: height 1s linear;
+  -webkit-transition: height 1s linear;
+  border: 2px solid #F8F8F8;
+  text-align: justify;
+}
+.box-faq:hover {
+  height: 100em;
+  background: lightgray;
+  -moz-transition: height 0.5s linear;
+  -o-transition: height 0.5s linear;
+  -webkit-transition: height 0.5s linear;
+}

@@ -1,0 +1,82 @@
+html{ 
+	width: 53em;
+	background: #E8E8E8;
+	overflow:auto;
+	overflow-x:hidden;
+	border:0px solid gray;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: left;
+	padding-left: 2em;
+	padding-top: 3em;
+	font: 1em Verdana, Arial, Helvetica, sans-serif;
+}
+
+li{
+	clear: both;
+}
+
+ol{
+	clear: both;
+}
+
+div#topic strong{
+	clear: right;
+	display: inline;
+	line-height:2em;
+	font-size:1em;
+	font-weight:normal;
+	text-align: left;
+	float: right;
+}
+
+div#topic span{
+	display:inline-block;
+	text-align:left;
+	font-size:1em;
+	font-family: Georgia, serif;
+	font-weight: none;
+	color:midnightblue;
+	direction:ltr; 
+	width: 35em;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space: nowrap;
+	padding-right: 10em;
+}
+
+div#topic span:hover{
+	display:inline-block;
+	/*text-align:left;*/
+	font-size:1em;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	color:#0404B4;
+	cursor:pointer;
+	/*white-space: nowrap;*/
+}
+
+div#timedate strong{
+	clear: left;
+	display:inline;
+	line-height:2em;
+	font-size:0.8em;
+	font-weight:normal;
+	color: black;
+	text-align: left;
+	float: left;
+	white-space: nowrap; /* no \n */
+	/*padding-right: 2em;*/
+	font-style:oblique;
+	font-family: Georgia, serif;
+}
+
+a:link{text-decoration:none;color: midnightblue;} 
+a:visited{text-decoration:none;color: darkgray;}
+a:hover{text-decoration:underline;color: #0404B4;}
+a:active{text-decoration:blink;background: lightblue;}
+

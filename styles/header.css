@@ -1,0 +1,44 @@
+html{ 
+	min-width: 5em;
+	min-height: 45em;
+	background: #f9f9f9;
+	overflow:scroll;
+	overflow-x:hidden;
+	border:0px solid gray;
+	padding-top: 3em;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: center;
+	font: 1em Verdana, Arial, Helvetica, sans-serif;
+}
+
+span{
+	display:block;
+	text-align:center;
+	font-size:2em;
+	font-family: Georgia, serif;
+	font-weight: none;
+	color:midnightblue;
+	direction:ltr; 
+	line-height: 2em;
+}
+
+a:link{text-decoration:none} 
+a:visited{text-decoration:none}
+a:hover{text-decoration:underline;color:red} 
+a:active{text-decoration:blink}
+
+span:hover{
+	display:block;
+	text-align:center;
+	font-size:2em;
+	font-family: Georgia, serif;
+	font-weight: bold;
+	color:black;
+	cursor:pointer;
+	background: lightgray;
+}

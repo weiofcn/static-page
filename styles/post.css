@@ -1,0 +1,54 @@
+html{ 
+	width: 55em;
+	background: #E8E8E8;
+	overflow:auto;
+	overflow-x:hidden;
+	border:0px solid gray;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-align: left;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	font: 1em Verdana, Arial, Helvetica, sans-serif;
+}
+
+article pre{
+	overflow-x:auto;
+	line-height:1.2em; 
+	border:1px solid #ccc; 
+	background:#F8F8FF; 
+	font-size:1em;
+	width: 55em;
+}
+
+article code{
+	margin:auto 1px;
+	padding:auto 2px;
+	background:#D0D0D0;
+	font-size: 1em;
+	font-family:"Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+}
+
+article h1{
+	font-size:1.6em;
+}
+
+article h2{
+	font-size:1.2em;
+}
+
+article h3{
+	font-size:0.9em;
+}
+
+article p{
+	font-size: 0.9em;
+	line-height: 1.5em;
+	text-indent: 2em;
+}
+
